@@ -1,0 +1,37 @@
+# The URL the site will be built for
+base_url = "https://blog.solthink.com"
+# The build output direction
+output_dir = "public"
+
+default_language = "en"
+author = "Sol"
+
+compile_sass = true
+generate_feeds = true
+taxonomies = [
+  {name = "tags", feed = true},
+]
+
+
+[languages]
+
+[languages.en]
+title = "Fiat Lux"
+description = "Let there be light"
+build_search_index = true
+
+[languages.zh]
+title = "献之"
+description = "精诚竭惮"
+
+
+[markdown]
+
+highlight_code = true
+highlight_theme = "base16-ocean-dark" # to change
+render_emoji = true
+external_links_target_blank = true
+
+
+[extra]
+# Put all your custom variables here
