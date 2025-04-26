@@ -1,2 +1,2 @@
 # Sol-Blog-Zola
-My blog.
+Fiat Lux.
