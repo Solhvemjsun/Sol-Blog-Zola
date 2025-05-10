@@ -4,8 +4,6 @@ base_url = "https://blog.solthink.com"
 title = "Sol's blog"
 description = "Fiat Lux!"
 
-theme = "neovim-theme"
-
 output_dir = "public"
 
 default_language = "en"

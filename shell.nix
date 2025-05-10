@@ -9,6 +9,6 @@ pkgs.mkShellNoCC {
 
   shellHook = ''
     echo "Type 'zola serve' to open the live reloading website"
-    echo "Type 'zola build' to build the whole website to ./public"
+    echo "Type 'make' to deliver the whole website to /var/www/solthink.com"
   '';
 }
