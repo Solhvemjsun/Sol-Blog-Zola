@@ -1,5 +1,5 @@
 +++
-title = "List of blog posts"
+title = "Methodology of Revolution"
 sort_by = "date"
 template = "blog.html"
 page_template = "blog-page.html"
