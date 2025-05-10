@@ -1,48 +1,46 @@
 # The URL the site will be built for
 base_url = "https://blog.solthink.com"
-# The build output direction
-output_dir = "public"
 
-default_language = "en"
-# author = "Sol"
+title = "Sol's blog"
+description = "Fiat Lux!"
 
 theme = "neovim-theme"
 
+output_dir = "public"
+
+default_language = "en"
+
 compile_sass = true
-# generate_feeds = true
-# taxonomies = [
-#   {name = "tags", feed = true},
-# ]
 
+minify_html = true
 
-[languages]
+generate_feeds = true
 
-[languages.en]
-title = "Sol's blog"
-description = "Let there be light"
+author = "Sol"
+
+taxonomies = [
+  {name = "tags", feed = true},
+]
+
 build_search_index = true
 
-[languages.zh]
-title = "献之的博客"
-description = "精诚竭惮"
 
+[markdown]
 
-# [markdown]
-
-# highlight_code = true
-# highlight_theme = "base16-ocean-dark" # to change
-# render_emoji = true
-# external_links_target_blank = true
+highlight_code = true
+highlight_theme = "base16-ocean-dark" # to change
+render_emoji = true
+external_links_target_blank = true
 
 
 [extra]
-# https://www.getzola.org/themes/neovim-theme/
+# referring to https://www.getzola.org/themes/neovim-theme/
 
 blog_name = "Sol's blog"
 
-# background-image = "assets/background.jpg"
+background-image = "assets/background.jpg"
 
-# config_js = "config.js"
+config_js = "config.js"
 
 # referring to https://www.getzola.org/themes/particle/
 # custom_css = "style.css"
